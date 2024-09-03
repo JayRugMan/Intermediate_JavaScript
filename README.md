@@ -13,3 +13,7 @@ Continuing to learn some JavaScript.
 > **Classes**  
 > JavaScript is an object-oriented programming (OOP) language we can use to model real-world items. Classes are a tool that developers use to quickly produce similar objects.  
 ___
+
+> **constructor() Method**  
+> JavaScript calls the `constructor()` method every time it creates a new _instance_ of a class.  
+___
