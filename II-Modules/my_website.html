@@ -1,0 +1,26 @@
+<!-- my_website.html -->
+<html>
+  <body>
+    <h1> My Website </h1>
+    <script> window.alert('Hello World'); </script>
+    <script>
+      function getName () {
+        let userInput = window.prompt('Who are you?');
+        let confirmation = window.confirm(`Hi. So it's ${userInput}?`)
+        return [confirmation, userInput]
+      }
+      let conf = false;
+      let input = '';
+      while(! conf){
+        reply = getName();
+        conf = reply[0]
+        input = reply[1]
+        if (conf) {
+          window.alert(`Please to meet you, ${input}`)
+        } else {
+          window.alert(`Sorry. What was it again?`)
+        }
+      }
+    </script>
+  </body>
+</html>
