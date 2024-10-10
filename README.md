@@ -17,3 +17,14 @@ ___
 > **constructor() Method**  
 > JavaScript calls the `constructor()` method every time it creates a new _instance_ of a class.  
 ___
+
+> **Modules**  
+> reusable pieces of code in a file that can be exported and then imported for use in another file.
+> ![Conceptualization of Modules](II-Modules/modular-program-diagram.svg)
+> [!NOTE]
+> The words “module” and “file” are often used interchangably
+___
+
+> **modular program**  
+> one whose components can be separated, used individually, and recombined to create a complex system.  
+___
