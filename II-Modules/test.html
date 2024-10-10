@@ -1,0 +1,108 @@
+<!--
+test.html 
+Me just mucking around with dialogue boxes
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Alert</title>
+  <style>
+    .custom-alert, .custom-confirm {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      text-align: center;
+    }
+    .button.container {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .button-container button {
+      margin-top: 0 5px;
+    }
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+    .input-box {
+      margin-bottom: 17px;
+    }
+  </style>
+</head>
+<body>
+  <h1> Jason's test page </h1>
+  <script> window.alert('Hello world'); </script>
+  <div class="overlay" id="overlay"></div>
+  <div class="custom-alert" id="customAlert">
+    <p>What is your name?</p>
+    <input class="input-box" type="text" id="userInput" placeholder="Who?">
+    <div class="button-container">
+      <button onclick="closeAlert()">Not telling</button>
+      <button onclick="submitInput()">I'm friendly</button>
+    </div>
+  </div>
+
+  <div class="custom-confirm" id="customConfirm">
+    <p id="confirmMessage"></p>
+    <div class="button-container">
+      <button onclick="showAlert(true)">Nah</button>
+      <button onclick="confirmAction()">Yup</button>
+    </div>
+  </div>
+
+  <script>
+    function showAlert(repeat=false) {
+      if(repeat) {
+        document.getElementById('customConfirm').style.display = 'none'
+      }
+      document.getElementById('customAlert').style.display = 'block';
+      document.getElementById('overlay').style.display = 'block';
+    }
+
+    function closeAlert() {
+      document.getElementById('customAlert').style.display = 'none';
+      document.getElementById('overlay').style.display = 'none';
+    }
+
+    function submitInput() {
+      var userInput = document.getElementById('userInput').value;
+      document.getElementById('customAlert').style.display = 'none';
+      showConfirm(`Hi. So, ${userInput}`)
+    }
+
+    function showConfirm(message) {
+      document.getElementById('confirmMessage').textContent = message;
+      document.getElementById('customConfirm').style.display = 'block';
+    }
+
+    function closeConfirm() {
+      document.getElementById('customConfirm').style.display = 'none';
+      document.getElementById('overlay').style.display = 'none';
+    }
+
+    function confirmAction() {
+      // Handle the confirmation action here
+      closeConfirm();
+    }
+
+    // Example usage
+    showAlert();
+  </script>
+</body>
+</html>
