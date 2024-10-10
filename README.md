@@ -21,7 +21,7 @@ ___
 > **Modules**  
 > reusable pieces of code in a file that can be exported and then imported for use in another file.
 > ![Conceptualization of Modules](II-Modules/modular-program-diagram.svg)  
-
+>
 > [!NOTE]  
 > The words “module” and “file” are often used interchangably
 ___
