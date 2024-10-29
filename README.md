@@ -26,9 +26,15 @@ ___
 > The words “module” and “file” are often used interchangably
 ___
 
-> **modular program**  
-> one whose components can be separated, used individually, and recombined to create a complex system.  
+> **Asynchronous Operations**  
+> Operations that allow the computer to "move on" to other tasks while waiting for the asynchronous operation to complete.  
+> ![Async and a promise](III-Promises/Art-354_Promise.svg)
 ___
+
+> **modular program**  
+> One whose components can be separated, used individually, and recombined to create a complex system.  
+___
+
 > **Promises**  
 > Objects that represent the eventual outcome of an asynchronous operation. One can be in three states:  
 >
