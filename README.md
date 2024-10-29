@@ -38,9 +38,9 @@ ___
 > **Promises**  
 > Objects that represent the eventual outcome of an asynchronous operation. One can be in three states:  
 >
-> - Pending: The initial state -- the operation has not completed yet.
-> - Fulfilled: The operation has completed successfully and the promise has now has a _resolved value_.  
-> - Rejected: The operation has failed and the promise has a reason for the failure. This reason is usually an `Error` of some kind.  
+> - Pending: The initial state -- the operation has not completed yet. **Not settled**  
+> - Fulfilled: The operation has completed successfully and the promise has now has a _resolved value_. **Settled**  
+> - Rejected: The operation has failed and the promise has a reason for the failure. This reason is usually an `Error` of some kind. **Settled**  
 >
 > ![Promise States](III-Promises/Art-346-01.svg)
 ___
