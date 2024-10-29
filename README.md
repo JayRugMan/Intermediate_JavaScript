@@ -42,4 +42,5 @@ ___
 > - Fulfilled: The operation has completed successfully and the promise has now has a _resolved value_.  
 > - Rejected: The operation has failed and the promise has a reason for the failure. This reason is usually an `Error` of some kind.  
 >
+> ![Promise States](III-Promises/Art-346-01.svg)
 ___
