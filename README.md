@@ -20,12 +20,20 @@ ___
 
 > **Modules**  
 > reusable pieces of code in a file that can be exported and then imported for use in another file.
-> ![Conceptualization of Modules](II-Modules/modular-program-diagram.svg)  
-
+> ![Conceptualization of Modules](II-Modules/modular-program-diagram.svg)
+>
 > [!NOTE]  
 > The words “module” and “file” are often used interchangably
 ___
 
 > **modular program**  
 > one whose components can be separated, used individually, and recombined to create a complex system.  
+___
+> **Promises**  
+> Objects that represent the eventual outcome of an asynchronous operation. One can be in three states:  
+>
+> - Pending: The initial state -- the operation has not completed yet.
+> - Fulfilled: The operation has completed successfully and the promise has now has a _resolved value_.  
+> - Rejected: The operation has failed and the promise has a reason for the failure. This reason is usually an `Error` of some kind.  
+>
 ___
