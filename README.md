@@ -28,7 +28,7 @@ ___
 
 > **Asynchronous Operations**  
 > Operations that allow the computer to "move on" to other tasks while waiting for the asynchronous operation to complete.  
-> ![Async and a promise](III-Promises/Art-354_Promise.svg)
+> ![Async and a promise](III-Promises/3.1/Art-354_Promise.svg)
 ___
 
 > **modular program**  
@@ -42,5 +42,5 @@ ___
 > - Fulfilled: The operation has completed successfully and the promise has now has a _resolved value_. **Settled**  
 > - Rejected: The operation has failed and the promise has a reason for the failure. This reason is usually an `Error` of some kind. **Settled**  
 >
-> ![Promise States](III-Promises/Art-346-01.svg)
+> ![Promise States](III-Promises/3.2/Art-346-01.svg)
 ___
