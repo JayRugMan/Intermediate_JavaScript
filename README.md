@@ -48,3 +48,10 @@ ___
 > **.then()**
 > This is a method of promises to direct what happens when it's settled, whether `fulfilled` or `rejected`. It takes two arguments, the first is the function to do when fulfilled, called the `onFulfilled` function. The second is the function to do when rejected, called `onRejected`.  
 ___
+
+> **Composition**  
+> The chaining together of multiple promises. For example, "If the clothes are cleaned, then we’ll want to put them in the dryer. After the dryer runs, if the clothes are dry, then we can fold them and put them away."  
+
+> [!NOTE]  
+> Promises are designed with composition in mind.
+___
