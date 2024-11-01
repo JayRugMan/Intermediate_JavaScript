@@ -44,3 +44,7 @@ ___
 >
 > ![Promise States](III-Promises/3.2/Art-346-01.svg)
 ___
+
+> **.then()**
+> This is a method of promises to direct what happens when it's settled, whether `fulfilled` or `rejected`. It takes two arguments, the first is the function to do when fulfilled, called the `onFulfilled` function. The second is the function to do when rejected, called `onRejected`.  
+___
