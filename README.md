@@ -55,3 +55,11 @@ ___
 > [!NOTE]  
 > Promises are designed with composition in mind.
 ___
+
+> **Promise.all()**  
+> Accepts an array of promises as its argument and returns a single promise, which will settle in one of two ways:
+>
+> - If **all** accepted promises resolve then the new, single promise returns and array of resolve values from each.  
+> - If **any** accpeted promise rejects the new, single promise will immediately reject with the reason from the accepted promise's reason. This is known as _failing fast_.
+>
+___
