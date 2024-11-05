@@ -63,3 +63,7 @@ ___
 > - If **any** accpeted promise rejects the new, single promise will immediately reject with the reason from the accepted promise's reason. This is known as _failing fast_.
 >
 ___
+
+> **async...await**  
+> The `async...await` syntax is [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)— it doesn’t introduce new functionality into the language, but rather introduces a new syntax for using promises and generators. Both of these were already built in to the language.  
+___
