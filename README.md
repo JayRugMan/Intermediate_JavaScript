@@ -67,3 +67,11 @@ ___
 > **async...await**  
 > The `async...await` syntax is [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)— it doesn’t introduce new functionality into the language, but rather introduces a new syntax for using promises and generators. Both of these were already built in to the language.  
 ___
+
+> **wating()**  
+> A function that paused a provided function until the first promise resolves to construct a second promise.  
+___
+
+> **concurrent()**  
+> A function that cunstructs two promises without using `await`. Both will need to fulfill before returning either.
+___
