@@ -73,5 +73,5 @@ ___
 ___
 
 > **concurrent()**  
-> A function that cunstructs two promises without using `await`. Both will need to fulfill before returning either.
+> A function that cunstructs two promises without using `await`. Both are run at the same time.  
 ___
