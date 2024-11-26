@@ -83,4 +83,4 @@ ___
 > - Sends that request object to the API endpoint provided.  
 > - Returns a `promise` that ultimately resolves to a response object, which contains the status of the promise wiht information the API sent back.  
 >
-> ![Fetch Breakdown](V-Requests/5.2/fetch GET transparent.svg "Fetch Breakdown")
+> ![Fetch Breakdown]("V-Requests/5.2/fetch GET transparent.svg" "Fetch Breakdown")
