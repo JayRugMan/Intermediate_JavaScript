@@ -75,3 +75,12 @@ ___
 > **concurrent()**  
 > A function that cunstructs two promises without using `await`. Both are run at the same time.  
 ___
+
+> **Fetch**
+> `fetch()` is a way to use the HTTP request called `GET`.  
+>
+> - Creates a request object that contains relevant information that an API needs.  
+> - Sends that request object to the API endpoint provided.  
+> - Returns a `promise` that ultimately resolves to a response object, which contains the status of the promise wiht information the API sent back.  
+>
+> ![Fetch Breakdown](V-Requests/5.2/fetch GET transparent.svg "Fetch Breakdown")
