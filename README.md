@@ -76,11 +76,22 @@ ___
 > A function that cunstructs two promises without using `await`. Both are run at the same time.  
 ___
 
-> **Fetch**
+> **Fetch (GET)**
 > `fetch()` is a way to use the HTTP request called `GET`.  
 >
 > - Creates a request object that contains relevant information that an API needs.  
 > - Sends that request object to the API endpoint provided.  
 > - Returns a `promise` that ultimately resolves to a response object, which contains the status of the promise wiht information the API sent back.  
 >
-> ![Fetch Breakdown](V-Requests/5.2/fetch_GET_transparent.svg "Fetch Breakdown")
+> ![Fetch Breakdown](V-Requests/5.2/fetch_GET_transparent.svg "Fetch Breakdown")  
+___
+
+> **Fetch (POST)**
+> `fetch()` can also to `POST`.  
+>
+> - Requires two arguments, an endpoint and an object.  
+> - The object requires two properties, a `method` with a value of `'POST'` and a `body` with a value of `JSON.stringify({id: '200'})`. The second agument determines that this request is a POST request and what information will be sent to the API.  
+> - Success will return a response body, which will vary depending on how the API is set up.  
+>
+> ![Fetch Breakdown](V-Requests/5.5/fetch_POST_transparent.svg "Fetch Breakdown")  
+___
