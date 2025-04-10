@@ -102,4 +102,5 @@ ___
 > - The `await` keyword can only be used within an `async` function. `await` suspends the program while waiting for a promise to resolve.  
 > - In a [`try...catch` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch), code in the `try` block will be run and in the event of an exception, the code in the catch statement will run.  
 >
+> ![Async GET Requests Breakdown](V-Requests/5.8/async-get-request.svg "Async GET Requests Breakdown")
 ___
