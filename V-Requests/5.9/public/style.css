@@ -1,0 +1,93 @@
+header {
+  height: 60px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main {
+  background-color: rgb(228, 111, 84);
+  height: 900px;
+  text-align: center;
+}
+
+.h1 {
+  height: 38px;
+  font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
+  font-size: 32pt;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #3b4151ff;
+  padding-top: 40px;
+}
+
+.logo {
+  width: 200px;
+  height: 40px;
+  margin-top: 40px;
+  object-fit: contain;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+#input {
+  width: 350px;
+  height: 50px;
+  border-radius: 3.2px;
+  border: solid 0.8px #3b4151ff;
+  background-color: inherit;
+  display: block;
+  margin: auto;
+  font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
+  font-size: 14pt;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgb(249, 243, 255);
+}
+
+#submit {
+  width: 100px;
+  height: 40px;
+  border-radius: 3.2px;
+  border: solid 0.8px #3b4151ff;
+  background-color: #3b4151ff;
+  margin-top: 48px;
+  font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
+  font-size: 16pt;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgb(206, 98, 98);
+  margin-right: -3px;
+}
+
+#submit:hover {
+  border: solid 0.8px #3b4151ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#submit:active {
+  background-color: #ffffff;
+  border: solid 0.8px #1c1356;
+  color: #3b4151ff;
+  cursor: pointer;
+}
+
+#responseField {
+  background-color: #3b4151ff;
+  padding: 25px;
+  min-width: 191px;
+  min-height: 120px;
+  margin: auto;
+  margin-top: 25px;
+  font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
+  font-size: 14pt;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgb(249, 243, 255);
+  overflow: auto;
+}
