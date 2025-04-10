@@ -15,6 +15,7 @@ main {
   font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
   font-size: 32pt;
   font-style: normal;
+  font-weight: 100;
   letter-spacing: 0.6px;
   text-align: center;
   color: #3b4151ff;
@@ -29,7 +30,7 @@ main {
 }
 
 .container {
-  width: 400px;
+  width: 700px;
   margin: auto;
   text-align: center;
 }
@@ -44,6 +45,7 @@ main {
   margin: auto;
   font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
   font-size: 14pt;
+  font-weight: 540;
   letter-spacing: 0.2px;
   text-align: center;
   color: rgb(249, 243, 255);
@@ -58,6 +60,7 @@ main {
   margin-top: 48px;
   font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
   font-size: 16pt;
+  font-weight: 550;
   letter-spacing: 0.2px;
   text-align: center;
   color: rgb(206, 98, 98);
@@ -66,7 +69,7 @@ main {
 
 #submit:hover {
   border: solid 0.8px #3b4151ff;
-  color: #ffffff;
+  color: #9babd4ff;
   cursor: pointer;
 }
 
@@ -77,15 +80,23 @@ main {
   cursor: pointer;
 }
 
-#responseField {
+#responseBox {
   background-color: #3b4151ff;
-  padding: 25px;
-  min-width: 191px;
+  width: 700px;
   min-height: 120px;
   margin: auto;
   margin-top: 25px;
+  overflow: auto;
+}
+
+#responseField {
+  background-color: #3b4151ff;
+  width: 280px;
+  min-height: 120px;
+  margin: 25px auto;
   font-family: "Century Gothic", "CenturyGothic", "AppleGothic";
   font-size: 14pt;
+  font-weight: 540;
   letter-spacing: 0.2px;
   text-align: center;
   color: rgb(249, 243, 255);
